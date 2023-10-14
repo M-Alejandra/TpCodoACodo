@@ -1,0 +1,107 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;            /* Coloca el logo y el menú en lados opuestos */
+    align-items: center;                      /* Centra verticalmente los elementos */
+    width: 100%; /* Establece el ancho del nav al 100% del contenedor principal */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav p {
+    font-weight: bold;
+    font-size: 10px;       /* Modifica el tamaño deseado */
+    color: rgba(252, 252, 252, 0.938);  /* Cambia este valor a "white" para el color blanco */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;                             /* Muestra los elementos del menú en línea */
+}
+
+li {
+    margin-right: 10px;
+}
+
+.blanco{
+    color: rgba(247, 243, 243, 0.925);
+}
+.gris{
+    color: rgba(88, 86, 86, 0.925);
+}
+.verde{
+    color: rgba(42, 189, 67, 0.925);
+}
+
+/* imagen texto botones*/
+.image-container img {
+    width: 100%; /* Cambia este valor al tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: right;       /*ubicacion texto*/
+    color: white;
+}
+
+
+.transparent-button, .green-button {
+    width: 130px; /* Establece el ancho deseado para ambos botones */
+    display: inline-block; /* Hace que los botones se muestren en línea uno al lado del otro */
+    text-align: center; /* Centra el texto dentro de los botones */
+    color: white;
+    padding: 8px 15px; /* Ajusta el relleno según tus preferencias */
+    font-size: 12px; /* Ajusta el tamaño de fuente a un valor menor */
+}
+
+.transparent-button {
+    background: none; /* Elimina el fondo */
+    border: 1px solid white; /* Establece un borde blanco de 1 píxel */
+}
+
+.green-button {
+    background-color: green; /* Establece el color de fondo en verde */
+    border: none; /* Elimina el borde */
+}
+/* Centra los elementos con la clase "centrado"  h3 h6*/
+.centrado {
+    text-align: center;
+}
+
+/* imagen con texto al lado*/
+.custom-card {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #7e7171; /* Fondo gris */
+    color: white; /* Texto blanco */
+}
+
+.custom-img {
+    width: 100; /* Mitad del ancho de la tarjeta */
+}
+
+/*formulario*/
+/*footer*/
+
+footer {
+    padding: 30px 0;
+    background-color: #1a395a; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    width: 100%;
+}
