@@ -79,6 +79,7 @@ li {
 .green-button {
     background-color: green; /* Establece el color de fondo en verde */
     border: none; /* Elimina el borde */
+    text-decoration: none;  /* sale el enlace sin el subrayado*/
 }
 /* Centra los elementos con la clase "centrado"  h3 h6*/
 .centrado {
@@ -93,15 +94,94 @@ li {
 }
 
 .custom-img {
-    width: 100; /* Mitad del ancho de la tarjeta */
+    width: 100%; /* Mitad del ancho de la tarjeta */
 }
 
 /*formulario*/
 /*footer*/
 
 footer {
+    margin-top: 20px; /* margen*/
     padding: 30px 0;
     background-color: #1a395a; /* Fondo azul */
     color: #fff; /* Texto blanco */
     width: 100%;
 }
+
+
+/*pagina1ticket------------------------*/
+
+.cuadrados13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;   /*tamaño*/
+    margin: 0cm;  /*contenedor donde estan los cuadaros*/
+    background-color: #fcfafa;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.azul { background-color: #f1f3f5; color: #050505;  border: 2px solid blue;}  /*color de adentro del cuadrado. el color de la letra y el ultimo color del borde*/
+.verde1 { background-color: #eff5f2; color: #0c0a0a; border: 2px solid green;}
+.amarillo { background-color: #fcfbfa; color: #0e0d0d; border: 2px solid yellow;}
+
+.descuento {
+    font-weight: bold;
+    color: #333;
+}
+
+.documentacion {
+    color: #777;
+    font-size: 12px; /* Ajusta el tamaño de la letra */
+}
+
+/* h6  y h2 de venta y valor del ticket*/ 
+.ventaT{
+    text-align: center;
+}
+
+/*boton formulario total a pagar*/
+
+#totalPagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; /* Ancho máximo para centrar */
+    margin: 0 auto;  /* Alinear al centro horizontalmente */
+}
+
+.custom-button {
+    background-color: #b7d7e4;
+    color: #4a4a9c;
+    width: 100%;     /* Ancho 100% para ocupar el contenedor */
+    height: 60px;
+    text-align: left;
+    max-width: 600px; /* Ancho máximo para centrar */
+}
+
+#resultadoContainer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;     /* Centra verticalmente el contenido */
+    text-align: left;        /* Alinear el texto hacia la izquierda */
+    max-width: 600px; /* Agrega esta línea para limitar el ancho si es necesario */
+}
+
+.BorrarResumen {
+    background-color: #5fbb68; /* Color boton */
+    color: #f2f2f5;            /* Color letras */
+    width: 300px;              /* Ancho personalizado */
+    margin: 0 0.1cm;           /* Agrega un margen de 0.5 cm en los lados izquierdo y derecho */
+    text-align: center;        /* Alinear el texto */
+}
+
+
+
